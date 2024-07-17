@@ -15,6 +15,6 @@ public interface ProductService {
 
     Product updateProduct(Product product);
 
-    void deleteProductById(Integer id);
+    String deleteProductById(Integer id);
 
 }
